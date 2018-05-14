@@ -11,25 +11,22 @@ import java.util.Arrays;
 
 import avaj_launchControl.aircraftControl.AircraftFactory;
 
+@SuppressWarnings("serial") 
 class NegativeNbException extends Exception {
-	static final long serialVersionUID = 42L;
-	
 	NegativeNbException(String s) {
 		super(s);
 	}
 }
 
+@SuppressWarnings("serial") 
 class InvalidTypeId extends Exception {
-	static final long serialVersionUID = 43L;
-
 	InvalidTypeId(String s) {
 		super(s);
 	}
 }
 
+@SuppressWarnings("serial") 
 class InvalidLine extends Exception {
-	static final long serialVersionUID = 44L;
-
 	InvalidLine(String s) {
 		super(s);
 	}
